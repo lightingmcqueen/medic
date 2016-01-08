@@ -45,3 +45,12 @@ group :development do
   gem 'spring'
 end
 
+
+				
+gem 'devise'
+gem 'paperclip'
+gem 'rails_admin'
+gem 'bootsy'
+gem 'breadcrumbs_on_rails'
+gem 'will_paginate-bootstrap'
+gem 'jquery-form-validator-rails'
