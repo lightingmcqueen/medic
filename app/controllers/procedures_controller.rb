@@ -69,6 +69,6 @@ class ProceduresController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def procedure_params
-      params.require(:procedure).permit(:clinic_id, :category_id, :subcategory_id, :title, :description, :cost, :hospital_stay, :travel_period)
+      params.require(:procedure).permit(:clinic_id, :category_id, :subcategory_id, :title, :description, :cost, :hospital_stay, :travel_period, :image1, :image2, :image3, :image4, :image5)
     end
 end

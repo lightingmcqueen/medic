@@ -40,5 +40,11 @@
   <%= @procedure.travel_period %>
 </p>
 
+<%= image_tag @procedure.image1.url(:thumb) %>
+<%= image_tag @procedure.image2.url(:thumb) %>
+<%= image_tag @procedure.image3.url(:thumb) %>
+<%= image_tag @procedure.image4.url(:thumb) %>
+<%= image_tag @procedure.image5.url(:thumb) %>
+
 <%= link_to 'Edit', edit_procedure_path(@procedure) %> |
 <%= link_to 'Back', procedures_path %>
