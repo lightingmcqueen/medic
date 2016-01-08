@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Clinic:</strong>
+  <%= @procedure.clinic_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @procedure.category_id %>
+</p>
+
+<p>
+  <strong>Subcategory:</strong>
+  <%= @procedure.subcategory_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @procedure.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @procedure.description %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @procedure.cost %>
+</p>
+
+<p>
+  <strong>Hospital stay:</strong>
+  <%= @procedure.hospital_stay %>
+</p>
+
+<p>
+  <strong>Travel period:</strong>
+  <%= @procedure.travel_period %>
+</p>
+
+<%= link_to 'Edit', edit_procedure_path(@procedure) %> |
+<%= link_to 'Back', procedures_path %>

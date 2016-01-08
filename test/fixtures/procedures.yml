@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  clinic_id: 1
+  category_id: 1
+  subcategory_id: 1
+  title: MyString
+  description: MyString
+  cost: MyString
+  hospital_stay: MyString
+  travel_period: MyString
+
+two:
+  clinic_id: 1
+  category_id: 1
+  subcategory_id: 1
+  title: MyString
+  description: MyString
+  cost: MyString
+  hospital_stay: MyString
+  travel_period: MyString
