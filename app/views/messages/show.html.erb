@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Clinic:</strong>
+  <%= @message.clinic_id %>
+</p>
+
+<p>
+  <strong>Recipientid:</strong>
+  <%= @message.recipientid %>
+</p>
+
+<p>
+  <strong>Senderid:</strong>
+  <%= @message.senderid %>
+</p>
+
+<p>
+  <strong>Procedure:</strong>
+  <%= @message.procedure_id %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @message.subject %>
+</p>
+
+<p>
+  <strong>Travel date:</strong>
+  <%= @message.travel_date %>
+</p>
+
+<p>
+  <strong>Required treatment:</strong>
+  <%= @message.required_treatment %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @message.message %>
+</p>
+
+<p>
+  <strong>Message read date:</strong>
+  <%= @message.message_read_date %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @message.status %>
+</p>
+
+<%= link_to 'Edit', edit_message_path(@message) %> |
+<%= link_to 'Back', messages_path %>

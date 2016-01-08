@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :messages
+  resources :reviews
+  resources :accreditations
   mount RailsAdmin::Engine => '/administration', as: 'rails_admin'
   devise_for :admins
   devise_for :users
@@ -7,7 +10,6 @@ Rails.application.routes.draw do
   resources :staffs
   resources :clinics
   resources :subcategories
-  mount RailsAdmin::Engine => '/administration', as: 'rails_admin'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

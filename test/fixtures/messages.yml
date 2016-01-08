@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  clinic_id: 1
+  recipientid: 1
+  senderid: 1
+  procedure_id: 1
+  subject: MyString
+  travel_date: MyString
+  required_treatment: MyString
+  message: MyString
+  message_read_date: MyString
+  status: MyString
+
+two:
+  clinic_id: 1
+  recipientid: 1
+  senderid: 1
+  procedure_id: 1
+  subject: MyString
+  travel_date: MyString
+  required_treatment: MyString
+  message: MyString
+  message_read_date: MyString
+  status: MyString
